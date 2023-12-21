@@ -1096,7 +1096,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.6037736, g: 0.24777503, b: 0.24777503, a: 1}
+  m_BackGroundColor: {r: 0.764151, g: 0.32079923, b: 0.32079923, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1560,7 +1560,7 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 886035952}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &886035954 stripped
+--- !u!114 &886035956 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6568154308448411737, guid: 204d600a004cebe41a023ff26837fb54,
     type: 3}
@@ -2213,7 +2213,7 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 1140624002}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1140624004 stripped
+--- !u!114 &1140624006 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6568154308448411737, guid: 204d600a004cebe41a023ff26837fb54,
     type: 3}
@@ -2653,7 +2653,7 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 1232246575}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1232246577 stripped
+--- !u!114 &1232246580 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5123906208958692685, guid: 359bd680418ddb24c84b6f4731da72f9,
     type: 3}
@@ -3231,12 +3231,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59db1dfd95bb4ceca5ee58f050ce1d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameComplete: {fileID: 0}
+  questionDataScriptable: {fileID: 0}
+  questionImage: {fileID: 0}
   answerWordList:
   - {fileID: 7365132579975426312}
   - {fileID: 3435633}
-  - {fileID: 886035954}
+  - {fileID: 886035956}
   - {fileID: 986150331}
-  - {fileID: 1140624004}
+  - {fileID: 1140624006}
   - {fileID: 247384567}
   - {fileID: 674017075}
   optionsWordList:
@@ -3244,13 +3247,13 @@ MonoBehaviour:
   - {fileID: 1602017820}
   - {fileID: 345679964}
   - {fileID: 335527911}
-  - {fileID: 2139734272}
-  - {fileID: 2001149702}
-  - {fileID: 2095166918}
-  - {fileID: 1232246577}
+  - {fileID: 2139734275}
+  - {fileID: 2001149705}
+  - {fileID: 2095166921}
+  - {fileID: 1232246580}
   - {fileID: 1717388342}
   - {fileID: 403121259}
-  - {fileID: 1851999719}
+  - {fileID: 1851999722}
   - {fileID: 1198112498}
 --- !u!1 &1745157100
 GameObject:
@@ -3506,7 +3509,7 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 1851999717}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1851999719 stripped
+--- !u!114 &1851999722 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5123906208958692685, guid: 359bd680418ddb24c84b6f4731da72f9,
     type: 3}
@@ -3647,7 +3650,7 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 2001149700}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2001149702 stripped
+--- !u!114 &2001149705 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5123906208958692685, guid: 359bd680418ddb24c84b6f4731da72f9,
     type: 3}
@@ -3788,7 +3791,7 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 2095166916}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2095166918 stripped
+--- !u!114 &2095166921 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5123906208958692685, guid: 359bd680418ddb24c84b6f4731da72f9,
     type: 3}
@@ -3929,7 +3932,7 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 2139734270}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2139734272 stripped
+--- !u!114 &2139734275 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5123906208958692685, guid: 359bd680418ddb24c84b6f4731da72f9,
     type: 3}
