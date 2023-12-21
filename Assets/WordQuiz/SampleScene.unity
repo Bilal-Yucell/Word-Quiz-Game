@@ -3231,9 +3231,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59db1dfd95bb4ceca5ee58f050ce1d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameComplete: {fileID: 0}
-  questionDataScriptable: {fileID: 0}
-  questionImage: {fileID: 0}
+  gameComplete: {fileID: 352663270}
+  questionDataScriptable: {fileID: 11400000, guid: 65ccb2d8e8cb640a1b18d9469975d92a,
+    type: 2}
+  questionImage: {fileID: 1170507036}
   answerWordList:
   - {fileID: 7365132579975426312}
   - {fileID: 3435633}
